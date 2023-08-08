@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <script src="https://kit.fontawesome.com/b4894765a1.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="title">
+                <h1>Lista de Tarefas</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="main">
+            <div id="selectTasks">
+                <label for="selectTarefas" id="label1">Selecione uma tarefa:</label>
+                <br>
+                <select id="selectTarefas" size="10">
+                </select>
+            </div>
+            <div class="botoes">
+                <a class="opcoes"><button class="botao" onclick="concluir()">Concluir Tarefa</button></a>
+            </div>
+            <div class="camposAdd">
+                <label for="textTitulo">Insira o título da tarefa:</label>
+                <input type="text" name="textTitulo" id="textTitulo">
+            </div>
+            <div class="camposAdd">
+                <label for="">Defina a prioridade da tarefa:</label>
+                <select name="selectPrioridade" id="selectPrioridade">
+                    <option value="Baixa">Baixa</option>
+                    <option value="Média">Média</option>
+                    <option value="Alta">Alta</option>
+                </select>
+
+            </div>
+            <div>
+                <a class="opcoes"><button class="botao" onclick="adicionar()">Adicionar Tarefa</button></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; VitorComin</p>
+        <div class="contacts">
+            <a href="https://github.com/VitorComin" target="_blank">
+                <button>
+                    <i class="fa-brands fa-github"></i>
+                </button>
+            </a>
+            <a href="https://www.linkedin.com/in/vitorgabrielcomin/" target="_blank">
+                <button>
+                    <i class="fa-brands fa-linkedin"></i>
+                </button>
+            </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
