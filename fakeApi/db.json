@@ -1,11 +1,6 @@
 {
   "tarefas": [
     {
-      "id": 1,
-      "titulo": "Limpar casa",
-      "prioridade": "Baixa"
-    },
-    {
       "titulo": "Pagar boletos",
       "prioridade": "Alta",
       "id": 5
@@ -19,6 +14,11 @@
       "titulo": "Cortar grama",
       "prioridade": "Baixa",
       "id": 7
+    },
+    {
+      "titulo": "Limpar a casa",
+      "prioridade": "Média",
+      "id": 8
     }
   ]
 }

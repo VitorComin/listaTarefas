@@ -38,6 +38,22 @@ select#selectTarefas {
     margin-bottom: 10px;
 }
 
+select {
+    border: 2px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+input {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+option:checked {
+    background-color: black;
+    color: white;
+}
+
 .botoes {
     display: flex;
     align-items: center;

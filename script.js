@@ -76,16 +76,16 @@ function adicionar() {
     })
     .then(response => {
         if (response.ok) {
-            // Update the tarefasData array
+            // Atualiza o array tarefasData
             return response.json();
         } else {
             console.error('Erro ao adicionar tarefa:', response.statusText);
         }
     })
     .then(newTask => {
-        tarefasData.push(newTask); // Add the new task to the array
-        atualizarSelectTarefas();   // Update the select options
-        // Clear the input fields
+        tarefasData.push(newTask); // Adiciona uma nova task ao array
+        atualizarSelectTarefas();   // Atualiza os options do select
+        // Limpa os inputs
         document.getElementById('textTitulo').value = '';
         document.getElementById('selectPrioridade').value = 'Baixa';
     })
