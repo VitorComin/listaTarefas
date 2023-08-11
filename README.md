@@ -17,7 +17,7 @@ O Footer contém meu nome e botões que ao clicar levam para meu GitHub e meu Li
 
 ## Aplicação
 
-A aplicação consiste em uma lista de tarefas que você pode consultar e editar, onde é possível adicionar e remover tarefas, além de definir prioridade a elas.
+A aplicação consiste em uma lista de tarefas que você pode consultar e editar, onde é possível adicionar e remover tarefas, além de definir prioridade a elas. A aplicação ficou simples, poderá receber uma nova versão para aprimorar a aplicação e adicionar funções como UPDATE, porém a importância desse projeto foi mostrar interações com o FakeApi, onde já utilizo GET, POST e DELETE.
 
 Entre o header e o footer há um main, onde há uma div que contém um select que, ao iniciar a página, chama a função getTarefas(), que pega todas as tarefas que estão armazenadas no arquivo db.json (faz um GET) e cria uma option para cada tarefa, com o valor sendo a ID que está cadastrada e o conteúdo da option sendo o título da tarefa que está cadastrada.
 
