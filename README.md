@@ -24,7 +24,7 @@ Entre o header e o footer há um main, onde há uma div que contém um select qu
 Logo abaixo há o botão concluir tarefa, que, ao clicar, chama a função concluir(), que pega o ID da option selecionada e busca ela no arquivo db.json, fazendo um DELETE. 
 
 ![image](https://github.com/VitorComin/listaTarefas/assets/106283734/bac126e3-97fa-4b2c-b0ee-66dfc60cd13d)
-
+--------------------------------------
 ![image](https://github.com/VitorComin/listaTarefas/assets/106283734/89821e01-8acc-4640-8f6f-d618a169b42d)
 
 
@@ -35,7 +35,7 @@ Caso nenhuma option esteja selecionada, ele apresenta um erro: 'Por favor, selec
 Abaixo há campos de "Insira o título da tarefa" e "Defina a prioridade da tarefa", onde, ao clicar no botão que há abaixo "Adicionar Tarefa", chama a função adicionar() que faz um POST utilizando o valor fornecido pelo primeiro campo como titulo, o valor no segundo campo como prioridade e definindo um ID. 
 
 ![image](https://github.com/VitorComin/listaTarefas/assets/106283734/ae23e0aa-29e6-451c-b85c-d5b0fed1150b)
-
+---------------------------------------
 ![image](https://github.com/VitorComin/listaTarefas/assets/106283734/76950a8b-c990-4a58-afd5-709d589d9d66)
 
 O select de prioridade sempre vai considerar a prioridade "baixa" inicialmente. Caso não seja informado um título dará um erro: 'Por favor, insira um título para adicionar uma tarefa.'.
